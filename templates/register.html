@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salamone- Registro</title>
+    <link rel="shortcut icon" href="../static/img/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Salamone</h1>
+        </nav>
+    </header>
+    <main>
+        <section>
+
+            <h2>Registro</h2>
+
+            <form action="" method="GET">
+
+                <!-- agregar en el form sirve para identificar en donde escribir -->
+                <!-- sino uso el label en el imput luego del id coloco el required placeholder= "ingrese su email"y aparece en donde escribis el mensaje -->
+
+                <div>
+                    <label for="fistname">Nombre</label>
+                    <input type="text" name="firstname" id="firstname" maxlength="6">
+                </div>
+                <br>
+                <div>
+                    <label for="">Apellido</label>
+                    <input type="text" name="Lastname" id="Lastname" minlength="2">
+
+                </div>
+                <br>
+                <div>
+                    <label for="">
+                        Email
+                    </label>
+                    <input type="email" name="email" id="email" required>
+
+                </div>
+                <br>
+                <div>
+                    <label for="">Contraseña</label>
+                    <input type="password" name="password" id="password" required>
+                </div>
+                <br>
+                <!-- se puede agregar min o max para el calendario -->
+                <div>
+                    <label for="">Fecha de Nacimiento</label>
+                    <input type="date" name="birthdate" id="birthdate" required>
+                </div>
+                <br>
+                <div>
+                    <label for="Country">Pais</label>
+                    <select name="Country" id="Country" required>
+                        <option value="">Seleccione</option>
+                        <option value="AR">Argentina</option>
+                        <option value="BO">Bolivia</option>
+                        <option value="BR">Brasil</option>
+                        <option value="CH">Chile</option>
+                        
+                    </select>
+                </div>
+                <div>
+                    <input type="checkbox" id="terms" name="terms">
+                    <label for="terms" >Acepto terminos y condiciones</label>
+                </div> 
+                    
+                    <button type="submit">Registrarse</button>
+                    <span></span>
+                    
+                    <!-- <div>
+                        <input type="radio" name="mi-radio" id="radio1">
+                        <label for="radio1">Opcion1</label>
+                        <input type="radio" name="mi-radio" id="radio2">
+                        <label for="radio2">Opcion2</label>
+                        <input type="radio" name="mi-radio" id="radio3">
+                    </div>
+                    <textarea name="" id="" cols="30" rows="10"></textarea> 
+                        <label for="radio3">Opcion3</label>
+                    <--en vez de radio usando checkbox me permite elegir varias opciones
+                    <-- <label for="comment">Comentario</label>
+                
+                <br>
+                <input type="submit" value="Registrarse">
+
+            </form>
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Salamone</title>
+        <link rel="shortcut icon" href="./static/img/favicon.ico" type="image/x-icon">
+        <link rel="preconnect" href="https://fonts.googleapis.com" >
+        <link rel="preconnect" href="https://fonts.gstatic.com"crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Biryiani:wght@200;300;400;600;700;800;900&display=swap" rel="stylesheet" >
+        <!--Agregar fontawesome-->
+        <script src="https://kit.fontawesome.com/f7fb471b65.js" crossorigin="anonymous"></script>
+        <!-- agregar css desde archivo externo -->
+        <link rel="stylesheet" href="./static/css/style.css">
+        <!-- agregar CSS interna al documento -->
+        <!-- <style>
+            a{
+                text-decoration: none;
+                color: chocolate;
+            }
+           
+        </style> -->
+    </head>
+    <!-- agregar CSS en linea -->
+    <body>
+        <!-- indica la cabecera de la pagina -->
+        <header>
+            <!-- representar un menu de navegacion-->
+            <nav>
+                <div id="Logo">
+                    <a href="">
+                        <i class="fas fa-film fa-spin"></i>
+                        <span class="logo-text">
+
+                           Salamone
+                        </span>
+                    </a>
+                </div>
+                <!-- lista ordenada -->
+                <!-- <ol>
+                    <li>Rutas del Sur</li>
+                    <li>Rutas del Oeste</li>
+                    <li>Rutas del Norte</li>
+                    <li>Rutas de Centro</li>
+                </ol> -->
+                <!-- listas desordenadas -->
+                <ul class="nav-links">
+                    <li>
+                    <!-- link con referencia al mismo documento -->
+                    <a href="#Rutas a Recorrer">Ruta Salamone</a>
+                </li>
+                <li>
+                    <!-- referencia relativa al proyecto -->
+                    <a href="./templates/register.html">Registrarse</a>
+                </li>
+                <i class="fi fi-rr-home"></i>
+                <a href="" target="_blank" class="btn-cac">
+                    <i class="fas fa-sing-in-alt"></i>
+                    <span class="login-text"> 
+                        Iniciar sesion
+                    </span>
+                </a>
+                <!--link con referncia externa a la pagina-->
+                    <!-- <a href="https://www.lanacion.com.ar/turismo/viajes/la-ruta-del-futurismo-bonaerense-nid2208006/" target="_blank">Iniciar Sesion</a> -->
+                <li>
+                </ul>
+            </nav>
+        </header>
+        <!--indica la seccion principal de mi pagina-->
+
+                        <!-- <a href="#Florencia Di Paolo" target="_blank">Rutas del Sur</a>
+                    </li>
+                        <li>
+                        </li>
+                                           
+                    <li>
+                        <a href="#Alejandro Gomez Monzon " target="_blank">Rutas del Norte</a>
+                        </li>
+                    <li>
+                        <a href="#Patricia Ratto" target="_blank">Rutas de Centro</a>
+                        </li> -->
+        <main>
+          <section id="banner">
+            <div class="banner-card container">
+                <h1>Ruta Salamone</h1>
+                <h2>Autores</h2>
+                <a href="./templates/register.html" class="btn-cac">Registrarse</a>
+            </div>
+
+          </section>
+            <section id="search">
+                <h2>¿Que Ruta de Salamone buscas?</h2>
+                <input type="text" placeholder="Buscar....." class="input-search">
+            </section>
+            <section id="Rutas a Recorrer">
+                <div>
+                    <h2> Ruta Salamone</h2>
+                </div>
+                <div id="Rutas a Recorrer-list">
+                <!--Referencia relativa al proyecto-->   
+                    <div>
+                        <a href="./templates/detail-Salamone.html">
+                        
+                            <img src="./static/img/Municipalidad de Coronel Pringles.jpg" alt="Imagen de Municipalidad de Coronel Pringles">
+                        
+                            
+                            <div>
+                                <p>La Ruta de Francisco Salamone</p>
+                                <p>2024 -7.8</p>
+
+                                
+
+                                
+                            </div>
+                        </a>
+                        
+                    </div>
+                       
+                    <!-- referencia absoluta -->
+                    <img src="https://images.adsttc.com/media/images/6025/9561/f91c/8176/4b00/0033/medium_jpg/01_-_Azul_2.jpg?1613075726" alt="La Ruta de Francisco Salamone: Fotografías de cementerios art-déco en ..." class=" nofocus" tabindex="0" aria-label="La Ruta de Francisco Salamone: Fotografías de cementerios art-déco en ..." role="button"alt= "Diferentes Rutas"> 
+                    
+                </div>
+                <!-- <h4>Alejandro Gomez Monzon </h4>
+                    <h5>Patricia Ratto</h5> -->
+                </section>
+                <section id="top-rated">
+                    <div>
+                        <h2>Las rutas mas recorridas</h2>
+                        
+                        <div id="top-rated-list">
+                            
+                        </div>
+                    </div>
+                        
+            </section>
+            
+            
+        </main>
+        <!-- indica pie de pagina -->
+        
+        <footer>
+
+        </footer>
+        <!-- <p> para poner un texto</p> -->
+        <!-- <br> es para saltar lineas -->
+    </body>
+</html>
